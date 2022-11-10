@@ -1,0 +1,463 @@
+{
+  "title": "h to c",
+  "steps": [
+    {
+      "type": "setViewport",
+      "width": 1920,
+      "height": 508,
+      "deviceScaleFactor": 1,
+      "isMobile": false,
+      "hasTouch": false,
+      "isLandscape": false
+    },
+    {
+      "type": "navigate",
+      "url": "http://13.212.31.37:9010/monthly-plans",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "http://13.212.31.37:9010/monthly-plans",
+          "title": "LycaMobile"
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-monthly-plans > div > div:nth-child(7) > div.shadow-xl.mt-2.bg-white.rounded-b-2xl > div.mx-12.my-4.py-0.border-t-2 > div > div.xl\\:ml-12.pt-3 > button"
+        ]
+      ],
+      "offsetY": 16,
+      "offsetX": 107
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Yes, add extra Data"
+        ],
+        [
+          "#want"
+        ]
+      ],
+      "offsetY": 11,
+      "offsetX": 3
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-select-requirements > div > div.lg\\:mx-20.xs\\:mx-2.xs\\:pb-4 > div > div > div:nth-child(3)"
+        ]
+      ],
+      "offsetY": 5,
+      "offsetX": 646
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-select-requirements > div > div.lg\\:mx-20.xs\\:mx-2.xs\\:pb-4 > div > div > div.py-10.md\\:flex.lg\\:space-x-9.ng-star-inserted > div:nth-child(1) > label > div.ml-1.pt-\\[5px\\] > label"
+        ]
+      ],
+      "offsetY": 7,
+      "offsetX": 88
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-select-requirements > div > div.lg\\:mx-20.xs\\:mx-2.xs\\:pb-4 > div > div > div.py-10.md\\:flex.lg\\:space-x-9.ng-star-inserted > div:nth-child(1) > label > div.ml-1.pt-\\[5px\\] > label"
+        ]
+      ],
+      "offsetY": 8,
+      "offsetX": 124,
+      "deviceType": ""
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Confirm Add On"
+        ],
+        [
+          "body > app-root > div > app-select-requirements > div > div.lg\\:mx-20.xs\\:mx-2.xs\\:pb-4 > div > div > button"
+        ]
+      ],
+      "offsetY": 20,
+      "offsetX": 107
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-select-requirements > div > div.lg\\:mx-20.xs\\:mx-2.xs\\:pb-4.lg\\:pb-10.ng-star-inserted > div > div > div.py-10.md\\:flex.lg\\:space-x-9.ng-star-inserted > div:nth-child(1) > label > div.ml-1.pt-\\[5px\\].text-base > label"
+        ]
+      ],
+      "offsetY": 20,
+      "offsetX": 159
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-select-requirements > div > div.lg\\:mx-20.xs\\:mx-2.xs\\:pb-4.lg\\:pb-10.ng-star-inserted > div > div > div.py-10.md\\:flex.lg\\:space-x-9.ng-star-inserted > div:nth-child(1) > label > div.ml-1.pt-\\[5px\\].text-base > label"
+        ]
+      ],
+      "offsetY": 21,
+      "offsetX": 199,
+      "deviceType": ""
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Confirm spend cap"
+        ],
+        [
+          "body > app-root > div > app-select-requirements > div > div.lg\\:mx-20.xs\\:mx-2.xs\\:pb-4.lg\\:pb-10.ng-star-inserted > div > div > button"
+        ]
+      ],
+      "offsetY": 24,
+      "offsetX": 182
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-select-requirements > div > div.lg\\:mx-12.xl\\:mx-20.xs\\:mx-2.pb-10.ng-star-inserted > div > div > div > div:nth-child(1) > div > div.ml-1.-mt-\\[4px\\] > label"
+        ]
+      ],
+      "offsetY": 15,
+      "offsetX": 131.8125
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-select-requirements > div > div.lg\\:mx-12.xl\\:mx-20.xs\\:mx-2.pb-10.ng-star-inserted > div > div > div > div:nth-child(1) > div > div.ml-1.-mt-\\[4px\\] > label"
+        ]
+      ],
+      "offsetY": 13,
+      "offsetX": 159.8125,
+      "deviceType": ""
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Add to Basket"
+        ],
+        [
+          "body > app-root > div > app-select-requirements > div > div.lg\\:my-20.xs\\:my-10.text-right.xs\\:text-center.lg\\:mr-40.xl\\:text-right > button"
+        ]
+      ],
+      "offsetY": 19,
+      "offsetX": 147.40625
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Checkout"
+        ],
+        [
+          "body > app-root > div > app-basket > div > div.bg-gray-200.h-full.pb-8 > div > div.flex.w-full.xl\\:space-x-10.lg\\:space-x-10.xl\\:flex-nowrap.lg\\:flex-nowrap.md\\:flex-wrap.sm\\:flex-wrap.xs\\:flex-wrap > div.bg-white.mt-8.xl\\:w-1\\/4.lg\\:w-1\\/4.md\\:w-full.xs\\:w-full.ng-star-inserted > div.mx-10.text-center.border-t.border-double.border-black.py-6 > button"
+        ]
+      ],
+      "offsetY": 26.21875,
+      "offsetX": 143.6875
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-user-type-selected > app-existing-user > div > div > div > div.w-full.text-center.pt-10.text-xl.font-semibold.tracking-wider.bg-white > div > label.first-accordion-for-customer-checking.xs\\:mt-5.md\\:mt-0.flex.lg\\:w-11\\/12.xl\\:w-8\\/12.\\33 xl\\:w-6\\/12 > div:nth-child(1)"
+        ]
+      ],
+      "offsetY": 24,
+      "offsetX": 1
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-user-type-selected > app-existing-user > div > div > div > div.w-full.text-center.pt-10.text-xl.font-semibold.tracking-wider.bg-white > div > label.first-accordion-for-customer-checking.xs\\:mt-5.md\\:mt-0.flex.lg\\:w-11\\/12.xl\\:w-8\\/12.\\33 xl\\:w-6\\/12 > div:nth-child(1)"
+        ]
+      ],
+      "offsetY": 24,
+      "offsetX": 1,
+      "deviceType": ""
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Continue to checkout"
+        ],
+        [
+          "body > app-root > div > app-user-type-selected > app-existing-user > div > div > div > div.w-full.text-center.pt-10.text-xl.font-semibold.tracking-wider.bg-white > button"
+        ]
+      ],
+      "offsetY": 27,
+      "offsetX": 239.984375
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "#email"
+        ]
+      ],
+      "offsetY": 33,
+      "offsetX": 168
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "#email"
+        ]
+      ],
+      "offsetY": 28,
+      "offsetX": 159
+    },
+    {
+      "type": "change",
+      "value": "lyca@gmail.com",
+      "selectors": [
+        [
+          "#email"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Add my Email"
+        ],
+        [
+          "body > app-root > div > app-user-type-selected > app-new-customer-guest > div > div > div.xl\\:w-4\\/6.mx-4 > div.xl\\:ml-20.ng-star-inserted > app-selected-new-user > div.border-2.py-4.bg-white.ng-star-inserted > form > div > div > div.md\\:ml-auto.md\\:pr-\\[3\\.5rem\\] > button"
+        ]
+      ],
+      "offsetY": 10,
+      "offsetX": 68.75
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-user-type-selected > app-new-customer-guest > div > div > div.xl\\:w-4\\/6.mx-4 > div.xl\\:ml-20.ng-star-inserted > app-selected-new-user > div.bg-white.border-2.py-5.ng-star-inserted > div > label:nth-child(1) > div:nth-child(2) > label"
+        ]
+      ],
+      "offsetY": 17,
+      "offsetX": 182.53125
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-user-type-selected > app-new-customer-guest > div > div > div.xl\\:w-4\\/6.mx-4 > div.xl\\:ml-20.ng-star-inserted > app-selected-new-user > div.bg-white.border-2.py-5.ng-star-inserted > div > label:nth-child(1) > div:nth-child(2) > label"
+        ]
+      ],
+      "offsetY": 20,
+      "offsetX": 210.53125,
+      "deviceType": ""
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Submit"
+        ],
+        [
+          "body > app-root > div > app-user-type-selected > app-new-customer-guest > div > div > div.xl\\:w-4\\/6.mx-4 > div.xl\\:ml-20.ng-star-inserted > app-selected-new-user > div.bg-white.border-2.py-5.ng-star-inserted > div.sm\\:pl-5.md\\:pl-24.py-5.ng-star-inserted > button"
+        ]
+      ],
+      "offsetY": 28,
+      "offsetX": 94
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-user-type-selected > app-new-customer-guest > div > div > div.xl\\:w-4\\/6.mx-4 > div.xl\\:ml-20.ng-star-inserted > app-selected-new-user > div:nth-child(5) > div.bg-white.px-5 > form > div:nth-child(2) > div > div > div > div.relative > label"
+        ]
+      ],
+      "offsetY": 12.4375,
+      "offsetX": 111
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-user-type-selected > app-new-customer-guest > div > div > div.xl\\:w-4\\/6.mx-4 > div.xl\\:ml-20.ng-star-inserted > app-selected-new-user > div:nth-child(5) > div.bg-white.px-5 > form > div:nth-child(2) > div > div > div > div.relative > label"
+        ]
+      ],
+      "offsetY": 21.4375,
+      "offsetX": 135,
+      "deviceType": ""
+    },
+    {
+      "type": "change",
+      "value": "sw1a",
+      "selectors": [
+        [
+          "#postcode"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-user-type-selected > app-new-customer-guest > div > div > div.xl\\:w-4\\/6.mx-4 > div.xl\\:ml-20.ng-star-inserted > app-selected-new-user > div:nth-child(5) > div.bg-white.px-5 > form > div:nth-child(2) > div > div > div.bg-white.h-36.w-1\\/3.overflow-auto.border.border-black.absolute.ng-star-inserted > ul:nth-child(1) > li"
+        ]
+      ],
+      "offsetY": 5.4375,
+      "offsetX": 139
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-user-type-selected > app-new-customer-guest > div > div > div.xl\\:w-4\\/6.mx-4 > div.xl\\:ml-20.ng-star-inserted > app-selected-new-user > div:nth-child(5) > form > div > div.bg-white.py-5.xs\\:px-10.md\\:px-20 > div.md\\:flex > div:nth-child(1) > div > label"
+        ]
+      ],
+      "offsetY": 14.4375,
+      "offsetX": 45
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-user-type-selected > app-new-customer-guest > div > div > div.xl\\:w-4\\/6.mx-4 > div.xl\\:ml-20.ng-star-inserted > app-selected-new-user > div:nth-child(5) > form > div > div.bg-white.py-5.xs\\:px-10.md\\:px-20 > div.md\\:flex > div:nth-child(1) > div > label"
+        ]
+      ],
+      "offsetY": 23.4375,
+      "offsetX": 69,
+      "deviceType": ""
+    },
+    {
+      "type": "change",
+      "value": "3",
+      "selectors": [
+        [
+          "#years"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-user-type-selected > app-new-customer-guest > div > div > div.xl\\:w-4\\/6.mx-4 > div.xl\\:ml-20.ng-star-inserted > app-selected-new-user > div:nth-child(5) > form > div > div.bg-white.py-5.xs\\:px-10.md\\:px-20 > div.md\\:flex > div:nth-child(2) > div > label"
+        ]
+      ],
+      "offsetY": 23.4375,
+      "offsetX": 23.671875
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-user-type-selected > app-new-customer-guest > div > div > div.xl\\:w-4\\/6.mx-4 > div.xl\\:ml-20.ng-star-inserted > app-selected-new-user > div:nth-child(5) > form > div > div.bg-white.py-5.xs\\:px-10.md\\:px-20 > div.md\\:flex > div:nth-child(2) > div > label"
+        ]
+      ],
+      "offsetY": 32.4375,
+      "offsetX": 47.671875,
+      "deviceType": ""
+    },
+    {
+      "type": "change",
+      "value": "7",
+      "selectors": [
+        [
+          "#months"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Submit"
+        ],
+        [
+          "body > app-root > div > app-user-type-selected > app-new-customer-guest > div > div > div.xl\\:w-4\\/6.mx-4 > div.xl\\:ml-20.ng-star-inserted > app-selected-new-user > div:nth-child(5) > form > div > div.bg-white.py-5.xs\\:px-10.md\\:px-20 > div.text-right > button"
+        ]
+      ],
+      "offsetY": 15.4375,
+      "offsetX": 86.984375
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-user-type-selected > app-new-customer-guest > div > div > div.xl\\:w-4\\/6.mx-4 > div.xl\\:ml-20.ng-star-inserted > app-selected-new-user > div:nth-child(6)"
+        ]
+      ],
+      "offsetY": 78,
+      "offsetX": 1142
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-user-type-selected > app-new-customer-guest > div > div > div.xl\\:w-2\\/6.xs\\:mt-10.xl\\:mt-0"
+        ]
+      ],
+      "offsetY": 1146,
+      "offsetX": 259.328125
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "body > app-root > div > app-user-type-selected > app-new-customer-guest > div > div > div.xl\\:w-2\\/6.xs\\:mt-10.xl\\:mt-0"
+        ]
+      ],
+      "offsetY": 1175,
+      "offsetX": 105.328125
+    }
+  ]
+}
