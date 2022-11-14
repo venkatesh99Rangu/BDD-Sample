@@ -6,4 +6,5 @@ Feature: Login
     When User Opens URL "https://oci-devaljjcs.aljcdc.com:9074/WMS/index.html#/"
     And User enters loginid as "National.admin1@alji.com" and Password as "Correct@1"
     And Click on Login Button
+    Then User Should get the "Abdul Latif Jameel"
     And Close the Browser

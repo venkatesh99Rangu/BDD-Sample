@@ -3,6 +3,7 @@ package Stepdefination;
 import Pageobjects.LoginPage;
 import io.cucumber.java.en.*;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -42,6 +43,22 @@ public class steps {
     public void click_on_login_button() {
         // Write code here that turns the phrase above into concrete actions
        lp.submit();
+    }
+
+    @Then("User Should get the {string}")
+    public void user_should_get_the(String title) {
+        // Write code here that turns the phrase above into concrete actions
+     if (driver.getPageSource().contains("Abdul Latif Jameel")){
+         Assert.assertEquals(title,driver.getTitle());
+
+          }else {
+
+         driver.close();
+         Assert.assertTrue(false);
+
+     }
+
+
     }
 
     @When("Close the Browser")
