@@ -15,7 +15,7 @@ public class steps {
     public void user_lunch_chrome_browser() {
         // Write code here that turns the phrase above into concrete actions
         /*System.setProperty("webdriver.chrome.driver",System.setProperty(W)/home/thrym2/IdeaProjects/WMS_AUTOMATION/Drivers/chromedriver (1));*/
-        System.setProperty("webdriver.chrome.driver","/home/thrym2/Downloads/chromedriver (2)");
+        System.setProperty("webdriver.chrome.driver","./home/thrym2/Downloads/chromedriver (2)");
         driver=new ChromeDriver();
         driver.manage().window().maximize();
         lp=new LoginPage(driver);

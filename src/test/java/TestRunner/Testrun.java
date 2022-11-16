@@ -6,12 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = ".//features/Login.feature",
+        features = "/home/thrym2/IdeaProjects/WMS_AUTOMATION/src/main/resources/features/Login.feature",
         glue="Stepdefination",
-        dryRun = false,
-
-
-
+        dryRun = true,
         monochrome = true,
         plugin ={ "pretty" , "html:Output_report"}
 
